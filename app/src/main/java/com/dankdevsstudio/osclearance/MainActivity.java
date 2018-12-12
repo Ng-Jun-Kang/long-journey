@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Initialise Date button
         Button showCalendar = findViewById(R.id.datePicker_button);
 
         //Initialise drop-down list
@@ -66,7 +68,8 @@ public class MainActivity extends AppCompatActivity{
                         endDate = DateFormat.format("dd/MM/yyyy", toDate.getTime()).toString();
                         TextView date_textview = findViewById(R.id.date_textview);
                         date_textview.setText(startDate + " to " + endDate);
-                    }});
+                    }
+                });
             }
 
         });

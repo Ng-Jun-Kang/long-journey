@@ -25,12 +25,11 @@
                 android:text="Date(s) Of Visit"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText"
                 android:background="#000000"
@@ -38,7 +37,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText"
                 android:background="#000000"
@@ -81,12 +80,11 @@
                 android:text="Personal Details"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText1"
                 android:background="#000000"
@@ -94,7 +92,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText1"
                 android:background="#000000"
@@ -142,12 +140,11 @@
                 android:text="Organization"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText2"
                 android:background="#000000"
@@ -155,7 +152,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText2"
                 android:background="#000000"
@@ -200,12 +197,11 @@
                 android:text="Contact Details"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText3"
                 android:background="#000000"
@@ -213,7 +209,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText3"
                 android:background="#000000"
@@ -252,12 +248,11 @@
                 android:text="Purpose"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText4"
                 android:background="#000000"
@@ -265,7 +260,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText4"
                 android:background="#000000"
@@ -304,12 +299,11 @@
                 android:text="Point Of Contact (POC)"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold"/>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText5"
                 android:background="#000000"
@@ -317,7 +311,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText5"
                 android:background="#000000"
@@ -357,12 +351,11 @@
                 android:text="Vehicle (If Applicable)"
                 android:textColor="#000000"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                app:fontFamily="sans-serif-smallcaps" />
+                android:textStyle="bold"/>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@id/tvText6"
                 android:background="#000000"
@@ -370,7 +363,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
+                android:layout_height="2dp"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/tvText6"
                 android:background="#000000"

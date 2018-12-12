@@ -68,5 +68,5 @@
     <string name="poc_rank_prompt">Please select your POC\'s rank</string>
     <string name="vehicle_prompt">Please select your vehicle type</string>
     <string name="date_button">Click to select date(s) of visit</string>
-    <string name="init_date">Start Date to End Date</string>
+    <string name="init_date">--/--/-- to --/--/--</string>
 </resources>
