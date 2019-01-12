@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -105,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/nric"
-            android:inputType="textCapCharacters" />
+            android:inputType="textCapCharacters"/>
 
         <EditText
             android:id="@+id/name_edittext"
@@ -113,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:hint="@string/name"
-            android:inputType="textCapWords" />
+            android:inputType="textCapCharacters" />
 
         <Spinner
             android:id="@+id/rank_title_spinner"
@@ -164,7 +166,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="@string/fmn"/>
+            android:hint="@string/fmn" />
 
         <EditText
             android:id="@+id/unit_edittext"
@@ -332,7 +334,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:spinnerMode="dialog"
-            android:prompt="@string/poc_rank_prompt" />
+            android:prompt="@string/poc_rank_prompt"
+            android:clickable="false"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -347,7 +350,7 @@
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:text="Vehicle (If Applicable)"
+                android:text="Vehicle"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
@@ -369,6 +372,13 @@
                 />
 
         </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/checkCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/check_car" />
 
         <Spinner
             android:id="@+id/vehicle_spinner"

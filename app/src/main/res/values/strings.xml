@@ -36,6 +36,13 @@
         <item>Lorry</item>
         <item>Van</item>
     </string-array>
+    <string-array name="poc_corresponding_rank">
+        <item>COL</item>
+        <item>MSG</item>
+        <item>ME3</item>
+        <item>ME4</item>
+        <item>ME5</item>
+    </string-array>
     <string-array name="poc_name_array">
         <item>Choo Le Cong</item>
         <item>Teo Wei Liang Lewis</item>
@@ -70,4 +77,7 @@
     <string name="date_button">Click to select date(s) of visit</string>
     <string name="init_date">--/--/-- to --/--/--</string>
     <string name="login">Login</string>
+    <string name="amend">Amend</string>
+    <string name="confirm">Confirm</string>
+    <string name="check_car">Vehicle?</string>
 </resources>

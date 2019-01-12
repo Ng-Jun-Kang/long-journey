@@ -27,6 +27,9 @@ public class LoginActivity extends AppCompatActivity {
                     finish();
                 }else{
                     Toast.makeText(getApplicationContext(),"Please ask OSC for the password", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(LoginActivity.this, ConfirmationActivity.class);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
