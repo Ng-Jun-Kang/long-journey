@@ -79,5 +79,7 @@
     <string name="login">Login</string>
     <string name="amend">Amend</string>
     <string name="confirm">Confirm</string>
-    <string name="check_car">Vehicle?</string>
+    <string name="check_car">Will you be driving?</string>
+    <string name="success">Submission Successful!</string>
+    <string name="exit">Exit</string>
 </resources>

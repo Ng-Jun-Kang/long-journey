@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".ConfirmationActivity"></activity>
+        <activity android:name=".ConfirmationActivity" />
+        <activity android:name=".SuccessActivity"></activity>
     </application>
 
 </manifest>

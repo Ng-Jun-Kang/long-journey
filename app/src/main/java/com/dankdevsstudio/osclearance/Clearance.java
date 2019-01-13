@@ -43,11 +43,11 @@ public class Clearance {
     }
 
     public String getNric() {
-        return nric;
+        return nric.toUpperCase();
     }
 
     public String getName() {
-        return name;
+        return name.toUpperCase();
     }
 
     public String getRank() {
